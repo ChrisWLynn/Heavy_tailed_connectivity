@@ -15,7 +15,7 @@ The neuronal connectomes are included in the following files:
 
 For each connectome, each row corresponds to an individual synapse (or contact for the mouse retina), with the first, second, and third columns representing the presynaptic neuron, postsynaptic neuron, and synaptic strength, respectively. Note that the synaptic strengths are 1 for all connectomes other than the mouse retina (where the synaptic strengths have units of squared microns).
 
-To analyze the connectomes, use "analyze_connectomes.m". To plot the distributions of the connection strengths, use "plot_connection_strengths.m". To simulate the activity-independent model, use either "activity_independent_directed.m" (for directed networks) or "activity_independent_symmetric.m" for symmetric networks. To simulate the activity-dependent model, use "activity_dependent.m".
+To analyze the connectomes, use "analyze_connectomes.m". To plot the distributions of the connection strengths, use "plot_connection_strengths.m". To simulate the activity-independent model, use either "activity_independent_directed.m" (for directed networks) or "activity_independent_symmetric.m" (for symmetric networks). To simulate the activity-dependent model, use "activity_dependent.m".
 
 The above scripts use the following helper functions:
 
